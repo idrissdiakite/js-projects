@@ -1,0 +1,128 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* Root */
+:root {
+    --blue: hsl(205, 78%, 60%);
+    --blue-dark: hsl(205, 86%, 17%);
+    --blue-light: hsl(205, 90%, 76%);
+    --grey: hsl(210, 22%, 49%);
+    --grey-dark: hsl(211, 39%, 23%);
+    --grey-light: hsl(210, 36%, 96%);
+    --white: #fff;
+    --red: hsl(360, 67%, 44%);
+    --red-light: hsl(360, 71%, 66%);
+    --green: hsl(125, 67%, 44%);
+    --green-light: hsl(125, 71%, 66%);
+    --black: #222;
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Open Sans", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+
+/* Global styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-primary);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+} 
+h3 {
+    font-size: 1.25rem;
+} 
+h4 {
+    font-size: 0.875rem;
+}
+  
+@media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+      color: var(--black);
+    }
+}
+
+/* Content */
+
+body {
+    color: var(--grey-light);
+}
+
+h1 {
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 70px;
+}
+
+.container {
+    padding: 60px;
+}
+
+/* Projects */
+
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects ul li {
+    margin: 30px;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects img {
+    width: 500px;
+}
