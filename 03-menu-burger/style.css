@@ -158,7 +158,6 @@ h2 {
     }
 
     .social-icons li a:hover {
-        font-size: x-large;
         transition: var(--transition);
     }
 
