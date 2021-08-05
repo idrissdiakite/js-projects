@@ -63,22 +63,11 @@ main {
     height: 100vh;
     display: grid;
     place-items: center;
+    background-color: var(--grey-light)
 }
 
 .container {
     text-align: center;
-}
-
-.container h2 {
-    color: var(--grey-light);
-    background: var(--black);
-    border-radius: 5px;
-    padding: 1rem;
-    margin-bottom: 2rem;
-}
-
-.color {
-    color: var(--blue-light);
 }
 
 .btn {
@@ -93,9 +82,10 @@ main {
     padding: 0.75rem 1.25rem;
     cursor: pointer;
     transition: var(--transition);
+    margin: 20px;
 }
 
 .btn:hover {
     color: var(--white);
-    background: var(--black);
+    background-color: var(--black);
 }
