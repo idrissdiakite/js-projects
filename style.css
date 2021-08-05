@@ -49,6 +49,7 @@ h4 {
     line-height: 1.25;
     margin-bottom: 0.75rem;
     font-family: var(--font-primary);
+    color: var(--black);
 }
 h1 {
     font-size: 3rem;
@@ -125,4 +126,6 @@ h1 {
 
 .projects img {
     width: 500px;
+    height: 350px;
+    object-fit: cover;
 }
