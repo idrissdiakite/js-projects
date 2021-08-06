@@ -5,6 +5,7 @@
 :root {
     --white: #fff;
     --black: #222;
+    --red: #C84B31;
     --font-primary: "Roboto", sans-serif;
     --font-secondary: "Open Sans", sans-serif;
     --transition: all 0.3s linear;
@@ -60,7 +61,7 @@ article {
 }
 
 article:hover {
-    background-color: #C84B31;
+    background-color: var(--red);
     transition: var(--transition);
 }
 
