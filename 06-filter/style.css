@@ -1,0 +1,105 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* Root */
+:root {
+    --grey-light: hsl(210, 36%, 96%);
+    --white: #fff;
+    --blue: hsl(205, 78%, 60%);
+    --black: #222;
+    --yellow: #FFFF00;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Open Sans", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+}
+
+/* Global style */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2 {
+    letter-spacing: var(--spacing);
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-primary);
+}
+h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    color: var(--white);
+    background-color: #000;
+}
+h2 {
+    font-size: 2rem;
+} 
+h3 {
+    font-family: var(--font-primary);
+    margin-bottom: 0;
+}
+
+/* Filters */
+
+.filters {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.filter-btn {
+    font-family: var(--font-primary);
+    letter-spacing: var(--spacing);
+    text-transform: uppercase;
+    font-size: 1rem;
+    background: transparent;
+    border: 2px solid var(--black);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    transition: var(--transition);
+    margin: 10px;
+}
+
+.filter-btn:hover {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+/* Items */
+
+.items {
+    width: 90%;
+    height: auto;
+    margin: 2rem auto;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 2rem 2rem;
+    justify-content: center;
+}
+.items img {
+    height: 300px;
+}
+
+/* Single item */
+
+.item {
+    width: 300px;
+    text-align: center;
+    font-family: var(--font-primary);
+}
