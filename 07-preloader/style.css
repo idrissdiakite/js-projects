@@ -40,6 +40,13 @@ header h1 {
     color: var(--white);
 }
 
+@media screen and (max-width: 1200px) {
+    header h1 {
+        bottom: 0.25rem;
+        right: 1rem;
+    }
+}
+
 /* Preloader */
 
 .preloader {
