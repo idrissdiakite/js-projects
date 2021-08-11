@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onglets</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Onglets</h1>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <!-- Header container -->
+            <div class="header-container">
+                <img src="./assets/a.jpeg" alt="photo">
+                <p>Après plus de 10 ans passés dans l'univers de la vente, j'ai décidé fin 2019
+                    de quitter mon poste de manager adjoint afin de me professionnaliser dans le développement web.</p>
+            </div>
+
+            <div class="tabs">
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="diplomes">diplômes</button>
+                    <button class="tab-btn" data-id="competences">compétences</button>
+                    <button class="tab-btn" data-id="experiences">expériences</button>
+                </div>
+
+                <div class="tab-content">
+                    <!-- single item -->
+                    <div class="content active" id="diplomes">
+                        <p>
+                            → <span>Titre professionnel "Développeur web et web mobile" RNCP niveau 5</span> (2021)<br />
+                            - Back-end: PHP, Symfony, Wordpress, Bdd (MCD, MLD, SQL) <br />
+                            - Front-end: HTML, CSS, JavaScript, Angular <br />
+                            - Divers: Anglais, Scrum, Figma
+                        </p>
+                        <br />
+                        <p>
+                            → <span>BTS Management des Unités Commerciales</span> (2012)
+                        </p>
+                    </div>
+
+                    <!-- single item -->
+                    <div class="content" id="competences">
+                        <p><span>
+                            → HTML | CSS | JS | React <br />
+                            → PHP | Wordpress | SQL <br />
+                            → Pixelmator | Final Cut Pro</span>
+                        </p>
+                        <br />
+                        <p><span>
+                            → Fédération d'équipe <br />
+                            → Conseil | Fidélisation client <br />
+                            → Sens du service | Flexibilité</span>
+                        </p>
+                
+                    </div>
+
+                    <!-- single item -->
+                    <div class="content" id="experiences">
+                        <p>
+                            → <span>Développeur front - Ultrō</span> <br />
+                            Lyon (stage) | février à mai 2021 <br />
+                            - Gestion de contenu sur divers CMS<br />
+                            - Création d'un thème Wordpress sur-mesure<br />
+                            - Intégration dynamique d'un blog via GatsbyJS
+                        </p>
+                        <br />
+                        <p>
+                            → <span>Fondateur - ilovethistrack.com</span> <br />
+                            Lyon | janvier 2015 à ce jour <br />
+                            - Création site de musique via Wordpress<br />
+                            - Création logo et charte graphique <br />
+                            - Transfert de fichiers via FileZila <br />
+                            - Création de contenu vidéo via Final Cut Pro 
+                        </p>
+                        <br />
+                        <p>
+                            → <span>Manager adjoint - Bexley</span> <br />
+                            Lyon (cdi) | mars 2014 à novembre 2019 <br />
+                            - Participation aux recrutements<br />
+                            - Tutorat/Formation des nouveaux collaborateurs <br />
+                            - Analyse des indicateurs commerciaux<br />
+                            - Conseil client, Vente, Service après-vente<br />
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>

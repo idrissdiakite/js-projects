@@ -63,7 +63,7 @@ h1 {
     text-align: center;
     color: var(--white);
     background-color: var(--black);
-    padding: 70px;
+    padding: 3rem;
 }
 
 .container {
