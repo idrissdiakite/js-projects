@@ -73,19 +73,21 @@ h1 {
 /* Projects */
 
 .projects ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 2rem;
+    justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 800px) {
     .projects ul {
-        justify-content: center;
+        gap: 5rem 5rem;
     }
 }
 
 .projects ul li {
+    width: 500px;
     padding: 30px;
 }
 
@@ -99,7 +101,8 @@ h1 {
 }
 
 .projects img {
-    width: 500px;
-    height: 350px;
+    width: 440px;
+    height: 440px;
     object-fit: cover;
+    text-align:center
 }

@@ -5,7 +5,7 @@
 :root {
     --white: #fff;
     --black: #222;
-    --red: #C84B31;
+    --red: #BD4B4B;
     --font-primary: "Roboto", sans-serif;
     --font-secondary: "Open Sans", sans-serif;
     --transition: all 0.3s linear;
@@ -40,7 +40,7 @@ p {
 }
 
 body {
-    background-color: var(--black);
+    background-color: #000;
     color: var(--white);
 }
 
@@ -53,11 +53,17 @@ section {
 }
 
 article {
-    width: 950px;
+    width: 650px;
     padding: 2rem;
     border: 1px solid #eee;
     border-radius: var(--radius);
     margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 1100px) {
+    article {
+        width: 950px;
+    }
 }
 
 article:hover {
