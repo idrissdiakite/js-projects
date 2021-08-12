@@ -158,9 +158,11 @@ section {
 .content {
     display: none;
 }
-  .tab-btn.active {
+
+.tab-btn.active {
     background: var(--white);
-  }
-  .content.active {
+}
+
+.content.active {
     display: block;
-  }
+}
