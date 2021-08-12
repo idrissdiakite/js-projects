@@ -96,6 +96,10 @@ h3 {
     height: 300px;
 }
 
+.items img:hover {
+    opacity: 0.9;
+}
+
 /* Single item */
 
 .item {
