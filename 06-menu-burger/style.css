@@ -113,12 +113,13 @@ h2 {
 }
 
 .social-icons {
+    margin-right: 0.75rem;
     display: none;
 }
 
 /* Media screen */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
     .nav, .links, .social-icons {
         display: flex;
         align-items: center;
