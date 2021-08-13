@@ -24,6 +24,7 @@ const weekdays = [
 ];
 
 const subtitle = document.querySelector(".subtitle");
+const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h3");
 const surprise = document.querySelector(".surprise");
 const btn = document.querySelector(".btn");
@@ -86,8 +87,13 @@ function getRemainingTime() {
 
   if (t < 0) {
     clearInterval(countdown);
-    image.innerHTML = `<img src="./assets/gif.gif" alt="Joyeux Noel">`;
+    deadline.innerHTML = `<img src="./assets/gif.gif" alt="Joyeux Noel" class="surprise">`;
   }
+
+  // Lorsque je clique sur le bouton, j'affiche la surprise
+  btn.addEventListener('click', function () {
+    deadline.innerHTML = `<h3>Wow c'est passé vite !</h3> <img src="./assets/gif.gif" alt="Joyeux Noel" class="surprise">`;
+  })
 
 }
 
