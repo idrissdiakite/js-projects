@@ -271,7 +271,8 @@ nav {
 
 .btn-header {
     padding: 0.5rem 1rem;
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     font-size: 1rem;
     border: 1px solid var(--white);
     transition: var(--transition);
@@ -287,8 +288,8 @@ nav {
 }
 
 .btn-header:hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: transparent;
+    color: var(--white);
 }
 
 
