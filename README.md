@@ -1,6 +1,6 @@
 # Projets Javascript
 
-Divers projets réalisés en Javascript (Vanilla).
+Divers projets réalisés en JavaScript (Vanilla).
 
 ## 🚀 Installation
 
