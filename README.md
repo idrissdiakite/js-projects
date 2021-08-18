@@ -4,7 +4,7 @@ Divers projets réalisés en Javascript (Vanilla).
 
 ## 🚀 Installation
 
-1. git clone
+1. git clone ou télécharger le projet
 2. ouvrir le fichier "index.html" situé à la racine
 
 ## 👀 Présentation des projets
