@@ -1,4 +1,4 @@
-# Projets Javascript
+# Projets JavaScript
 
 Divers projets réalisés en JavaScript (Vanilla).
 
