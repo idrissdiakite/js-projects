@@ -27,6 +27,12 @@ Divers projets réalisés en JavaScript (Vanilla).
 
 9.  **Compte à rebours**: Création d'un compte à rebours (jours, heures, minutes et secondes restantes) avec comme date butoire vendredi 24 décembre 2021 à 00h00. Lorsque le compteur arrive à 0, celui ci est remplacé par un gif souhaitant Joyeux Noël. Ajout d'un bouton permettant de faire un bond dans le futur et dégalement afficher le gif. Utilisation de nombreuses fonctions et méthodes JavaScript telles que "getTime()", "getFullYear/Month...()", "Math.floor()", "clearInterval()", "setInterval()", ".innerHTML" etc....
 
-10.  **Menu fixe + Scroll vers le haut**: Création d'un site avec diverses fonctionnalités: barre de navigation (menu) transparent lorsque la page charge. Le menu devient fixe (et avec un background-color) lorsqu'on commence à scroller vers le bas; Menu burger lorsque la résolution passe en dessous de 800px de définition (avec calcul cette fois ci dynamique de la height nécessaire). Mise en place d'un bouton permettant de remonter en haut de page (apparaition du bouton lorsque le scroll dépasse les 1000px). Implémentation d'encres et du smooth scroll pour naviguer entre les différentes sections du site. Utilisation de plusieurs fonctions et méthodes JavaScript ("getBoundingClientRect", "window.pageYOffset", "preventDefault", "classList.contains", ".offsetTop" etc...).
+10.  **Menu fixe + Scroll vers le haut**: Création d'un site avec diverses fonctionnalités: 
+- Barre de navigation (menu) transparent lorsque la page charge. Le menu devient fixe (avec un background-color) lorsqu'on commence à scroller vers le bas.
+- Menu burger lorsque la résolution passe en dessous de 800px de définition (avec calcul cette fois ci dynamique de la height nécessaire). 
+- Mise en place d'un bouton permettant de remonter en haut de page (apparition du bouton lorsque le scroll dépasse les 1000px). 
+- Implémentation d'encres et du smooth scroll pour naviguer entre les différentes sections du site. 
+
+Utilisation de plusieurs fonctions et méthodes JavaScript telles que "getBoundingClientRect", "window.pageYOffset", "preventDefault", "classList.contains", ".offsetTop" etc..
 
 ![Screenshot](screenshot.png)
