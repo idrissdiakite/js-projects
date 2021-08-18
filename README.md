@@ -23,7 +23,7 @@ Divers projets réalisés en JavaScript (Vanilla).
 
 7.  **Filtre catégories**: Affichage entièrement dynamique d'albums de musique (via un tableau d'objets) avec diverses données: artwork, catégorie, nom de l'artiste, date de sortie etc...). Possibilité de filtrer les albums par catégorie (filtre catégories créé également de façon dynamique via JavaScript). Création de plusieurs fonctions JavaScript et utilisation notamment de "DOMContentLoaded".
 
-8.  **Onglets**: Mise en place de plusieurs onglets permettant d'afficher uniquement le contenu de l'onglet selectionné. Lorsqu'on clique sur un onglet son contenu s'affiche et ceux des autres se cache - pratique pour présenter différentes informations (ex: 1. Diplômes, 2. Compétences 3. Expériences) dans une seule et même "zone". Utilisation notamment de "dataset" en JavaScript.
+8.  **Onglets**: Mise en place de plusieurs onglets permettant d'afficher uniquement le contenu de l'onglet selectionné. Lorsqu'on clique sur un onglet son contenu s'affiche et ceux des autres est caché - pratique pour présenter différentes informations (ex: 1. Diplômes, 2. Compétences 3. Expériences) dans une seule et même "zone". Utilisation notamment de "dataset" en JavaScript.
 
 9.  **Compte à rebours**: Création d'un compte à rebours (jours, heures, minutes et secondes restantes) avec comme date butoire vendredi 24 décembre 2021 à 00h00. Lorsque le compteur arrive à 0, celui ci est remplacé par un gif souhaitant Joyeux Noël. Ajout d'un bouton permettant de faire un bond dans le futur ainsi qu'affiché le gif. Utilisation de nombreuses fonctions et méthodes JavaScript pour obtenir le resultat souhaité ("getTime()", "getFullYear/Month/Day/hours...()", "Math.floor()", "clearInterval()", "setInterval()", ".innerHTML" etc...).
 
