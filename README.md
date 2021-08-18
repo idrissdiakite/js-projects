@@ -21,7 +21,7 @@ Divers projets réalisés en JavaScript (Vanilla).
 
 6.  **Menu burger**: Création d'une navbar responsive avec logo, links et icônes réseaux sociaux. Lorsque la résolution est inférieure à 850px (sur mobile notamment), mise en place d'un bouton burger (icône) afin d'afficher ou cacher le menu.
 
-7.  **Filtre catégories**: Affichage entièrement dynamique d'albums de musique (via un tableau d'objets) avec diverses données: artwork, catégorie, nom de l'artiste, date de sortie etc...). Possibilité de filtrer les albums par catégorie (filtre catégories créé également de façon dynamique via JavaScript). Création de plusieurs fonctions JavaScript et utilisation de "DOMContentLoaded".
+7.  **Filtre catégories**: Affichage entièrement dynamique d'albums de musique (via un tableau d'objets) avec diverses données: artwork, catégorie, nom de l'artiste, date de sortie etc...). Possibilité de filtrer les albums par catégorie (filtre catégories créé également de façon dynamique via JavaScript). Création de plusieurs fonctions JavaScript et utilisation notamment de "DOMContentLoaded".
 
 8.  **Onglets**: Mise en place de plusieurs onglets permettant d'afficher uniquement le contenu de l'onglet selectionné. Lorsqu'on clique sur un onglet son contenu s'affiche et ceux des autres se cache - pratique pour présenter différentes informations (ex: 1. Diplômes, 2. Compétences 3. Expériences) dans une seule et même "zone". Utilisation notamment de "dataset" en JavaScript.
 
