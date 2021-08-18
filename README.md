@@ -2,6 +2,8 @@
 
 Divers projets Javascript.
 
+![Screenshot](screenshot.png)
+
 ## 🚀 Installation
 
 1. git clone
