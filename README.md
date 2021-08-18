@@ -17,7 +17,7 @@ Divers projets réalisés en JavaScript (Vanilla).
 
 4.  **Preloader**: Création d'une homepage avec un background video - ce qui peut ralentir l'affichage du site. Pour éviter celà, mise en place d'un preloader (petit gif) qui disparait une fois que la page est entièrement chargée (via "window.onload").
 
-5.  **Sidebar**: Mise en place d'une sidebar verticale. Possibilité d'ouvrir et/ou "cacher" la sidebar via 2 icônes.
+5.  **Sidebar**: Mise en place d'une sidebar verticale. Possibilité d'ouvrir et/ou de "cacher" la sidebar via 2 icônes.
 
 6.  **Menu burger**: Création d'une navbar responsive avec logo, links et icônes réseaux sociaux. Lorsque la résolution est inférieure à 850px (sur mobile notamment), mise en place d'un bouton burger (icône) afin d'afficher ou cacher le menu.
 
@@ -27,7 +27,7 @@ Divers projets réalisés en JavaScript (Vanilla).
 
 9.  **Compte à rebours**: Création d'un compte à rebours (jours, heures, minutes et secondes restantes) avec comme date butoire vendredi 24 décembre 2021 à 00h00. Lorsque le compteur arrive à 0, celui ci est remplacé par un gif souhaitant Joyeux Noël. Ajout d'un bouton permettant de faire un bond dans le futur et dégalement afficher le gif. Utilisation de nombreuses fonctions et méthodes JavaScript telles que "getTime()", "getFullYear/Month...()", "Math.floor()", "clearInterval()", "setInterval()", ".innerHTML" etc....
 
-10.  **Menu fixe + Scroll vers le haut**: Création d'un site avec diverses fonctionnalités: 
+10.  **Menu fixe + Scroll vers le haut**: Création d'un site-template avec diverses fonctionnalités: 
 - Barre de navigation (menu) transparent lorsque la page charge. Le menu devient fixe (avec un background-color) lorsqu'on commence à scroller vers le bas.
 - Menu burger lorsque la résolution passe en dessous de 800px de définition (avec calcul cette fois ci dynamique de la height nécessaire). 
 - Mise en place d'un bouton permettant de remonter en haut de page (apparition du bouton lorsque le scroll dépasse les 1000px). 
