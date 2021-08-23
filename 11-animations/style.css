@@ -1,0 +1,195 @@
+/* Root */
+:root {
+    --white-light: #f1f1f1;
+    --yellow-light: #fbe4b3;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --font-primary: "Abril fatface", sans-serif;
+    --transition: all 0.2s ease-in-out;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+}
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    list-style: none;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1,
+h2 {
+    color: var(--white-light);
+    font-family: var(--font-primary), sans-serif;
+}
+
+h1 span {
+    position: relative;
+}
+
+body {
+    font-family: var(--font-primary), Arial, Helvetica, sans-serif;
+    overflow-x: hidden; /* Très important, permet de ne pas afficher les icones (et donc de scroll x) 
+    lorsque j'utilise des marges négatives pour lancer l'animation avec GSAP */
+}
+
+/* Section */
+
+.section {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.02)), url('assets/a.jpg');
+    background-size: cover;
+}
+
+/* Container */
+
+.container {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+
+.btns {
+    position: relative;
+    top: 2rem;
+}
+
+.btn {
+    border: 2px solid var(--white-light);
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 8.5rem;
+    color: var(--white-light);
+    cursor: pointer;
+}
+
+.btn:nth-child(1) {
+    margin-right: 1rem;
+}
+
+.btn:hover {
+    transition: var(--transition);
+    background: var(--yellow-light);
+    color: var(--white-light);
+    border: 2px solid var(--white-light);
+}
+
+/* Logo */
+
+.logo {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+/* Social icons */
+
+.social {
+    position: absolute;
+    right: 5%;
+    top: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-50%);
+    list-style-type: none;
+}
+
+.social-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid var(--white-light);
+    background-color: var(--white-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.social-icon:hover {
+    background-color: transparent;
+    transition-duration: 0.5s;
+    border: 1px solid var(--white-light);
+}
+
+.social-icon a {
+    padding-top: 3px;
+}
+
+.social-svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+/* media query */
+
+@media (min-width: 850px) { 
+    .container {
+        top: 30%;
+        left: 5%;
+    }
+
+    .container h1 {
+        font-size: 6.1rem;
+        line-height: 6rem;
+    }
+
+    .container h2 {
+        font-size: 3.5rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+        padding: 1rem;
+        width: 19rem;
+    }
+
+    .btn:nth-child(1) {
+        margin-right: 2rem;
+    }
+
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .social {
+        right: 5%;
+        top: 40%;
+    }
+
+    .social-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin: 1rem 0;
+    }
+    
+    .social-svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
