@@ -38,3 +38,8 @@ Divers projets réalisés en JavaScript (Vanilla).
 Utilisation de plusieurs fonctions et méthodes JavaScript telles que "getBoundingClientRect", "window.pageYOffset", "preventDefault", "classList.contains", ".offsetTop" etc..
 
 11.  **Animations GSAP**: Création d'une homepage animée (utilisation de la bibliothèque GSAP)
+
+
+## 💫 Live
+
+[https://test-js.netlify.app](https://test-js.netlify.app)
